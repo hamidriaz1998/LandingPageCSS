@@ -27,6 +27,13 @@ li , .sidetext p{
     font-size: 18px;
     color: #e5e7eb;
 }
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
 img{
     width: 560px;
     height: 345px;
@@ -42,10 +49,36 @@ button{
     font-weight: bolder;
     font-size: 14px;
 }
-.container1{
+
+
+.part2 > p{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.part2{
+    padding: 30px;
+}
+
+.container2,.container3{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    gap: 55px;
+}
+
+.card{
+    position: relative;
+    border:4px solid #3882f6;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card img, .cardText{
+    height: 250px;
+    width: 250px;
+}
+.cardText{
+    padding-left: 10px;
 }
