@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#start {
+#start,.footer {
     background-color: #1f2937;
 }
 
@@ -75,11 +75,13 @@ button{
     width: 250px;
     border-radius: 10px;
 }
-.card img, .cardText{
+.card img{
     height: 250px;
     width: 250px;
 }
 .cardText{
+    width: 250px;
+    height: 100px;
     padding-left: 10px;
 }
 
@@ -93,7 +95,8 @@ button{
     max-width: 900px;
     font-size: 36px;
     font-style: italic;
-    padding: 75px;
+    margin: 0;
+    padding: 60px;
 }
 .part3 p sub{
     font-weight: bold;
@@ -118,4 +121,10 @@ button{
 }
 .container4 .sidetext h2{
     color: #e5e7eb;
+}
+.footer p{
+    text-align: center;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 20px;
 }
