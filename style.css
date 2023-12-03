@@ -61,7 +61,7 @@ button{
     padding: 30px;
 }
 
-.container2,.container3{
+.container2,.container3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +81,41 @@ button{
 }
 .cardText{
     padding-left: 10px;
+}
+
+.part3{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part3 p{
+    max-width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    padding: 75px;
+}
+.part3 p sub{
+    font-weight: bold;
+}
+
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+.container4{
+    background-color: #3882f6;
+    padding:20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;   
+}
+.container4 button{
+    border:3px solid #f9faf8;
+}
+.container4 .sidetext h2{
+    color: #e5e7eb;
 }
